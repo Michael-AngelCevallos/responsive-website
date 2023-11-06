@@ -1,0 +1,84 @@
+
+
+body{
+  
+}
+
+.main-container{
+  margin: 10px;
+}
+
+
+
+/* CONTROLS HEADER SECTION */
+
+header{
+  display: grid;
+
+grid-template-columns: repeat(2, 1fr);
+
+padding: 10px 0;
+
+
+ 
+}
+
+
+.logo{
+
+}
+
+/* Moves Header nav Text To right side of page */
+.header-nav {
+  display: flex;
+  justify-content: end;
+  
+  
+ 
+}
+
+/* Spaces out nav text from each other */
+.home , .about-us, .contact{
+  padding: 0 15px;
+
+}
+
+
+/* CONTROLS ABOUT US SECTION */
+
+.aboutUsSection{
+
+  margin: 150px 0;
+  text-align: center;
+
+}
+
+.aboutUsSection p{
+  padding: 0 100px;
+}
+
+
+.aboutUsSection{
+text-align: center;
+}
+
+/* CONTROLS PORTFOLIO SECTION */
+
+.portfolio-section{
+  display: grid;
+
+  grid-template-columns: repeat(3,1fr);
+align-content: center;
+}
+
+
+/* CONTROLS OUR TEAM SECTION */
+.ourTeamSection{
+  text-align: center;
+  padding: 100px 100px;
+}
+
+.ourTeamSection h3{
+  padding: 10px 0;
+}
+
