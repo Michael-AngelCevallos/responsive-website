@@ -85,18 +85,19 @@ text-align: center;
 
 .portfolio-section{
   display: flex;
-flex-direction: row;
-align-items: center;
-  /* grid-template-columns: repeat(3,1fr); */
 justify-content: center;
-/* width:80%; */
+max-width: 1200px;
+gap: 50px;
+margin: auto;
 }
 
 .portfolio-item{
-  display: grid;
-  align-content: center;
-text-align: center;
-  margin: 0px 50px;
+display: flex;
+flex-direction: column;
+}
+
+.image-holder img {
+  width: 100%;
 }
 
 
@@ -159,8 +160,29 @@ hr{
 /* Media Queries, will apply when screen becomes smaller than specified width */
 @media (max-width: 1020px){
 
+  .portfolio-section{
+    flex-direction: column;
+  }
+
+  .portfolio-item{
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+  }
+
+  .portfolio-text{
+    width: 50%;
+  }
 }
 
 @media (max-width: 767px){
-  
+  .portfolio-item{
+    flex-direction: row;
+    gap: 0px;
+    justify-content: center;
+  }
+
+  .portfolio-text{
+    width: 100%;
+  }
 }
