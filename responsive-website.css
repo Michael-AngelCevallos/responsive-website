@@ -1,14 +1,12 @@
 
 
 body{
-  
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .main-container{
   margin: 10px;
 }
-
-
 
 /* CONTROLS HEADER SECTION */
 
@@ -18,9 +16,16 @@ header{
 grid-template-columns: repeat(2, 1fr);
 
 padding: 10px 0;
+}
 
 
- 
+
+h1, h2, h3 {
+  color: #6b6b6b;
+}
+
+p{
+  color: #999;
 }
 
 .logo-circle{
@@ -32,12 +37,11 @@ margin:0px;
 padding: 5px 15px;
 
 text-align: center;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 border-radius: 50%;
 
 width: 150px;
 height: 150px;
-
 }
 
 
@@ -58,17 +62,14 @@ color: grey;
 /* Spaces out nav text from each other */
 .home , .about-us, .contact{
   padding: 0 15px;
-
 }
 
 
 /* CONTROLS ABOUT US SECTION */
 
 .aboutUsSection{
-
   margin: 150px 0;
   text-align: center;
-
 }
 
 .aboutUsSection p{
@@ -128,7 +129,7 @@ text-align: center;
 }
 
 footer{
-  background-color: rgb(40, 40, 40);
+  background-color: #282828;
   color: white;
 
   margin: 0 auto;
@@ -150,4 +151,16 @@ hr{
 
 #footer-divider p{
   text-align: center;
+}
+
+
+
+
+/* Media Queries, will apply when screen becomes smaller than specified width */
+@media (max-width: 1020px){
+
+}
+
+@media (max-width: 767px){
+  
 }
